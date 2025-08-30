@@ -1,4 +1,5 @@
-#AUTHOR SAMP NUDOS
+#AUTHOR SAMP NUDOS 5.252.103.82:7074
+
 import random
 import socket
 import threading
@@ -115,4 +116,5 @@ for y in range(threads):
 		th.start()
 else:
 		th = threading.Thread(target = run4)
+
 		th.start()
